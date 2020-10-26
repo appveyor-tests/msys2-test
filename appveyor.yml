@@ -1,0 +1,2 @@
+install:
+- cmd: C:\msys64\usr\bin\bash -lc "pacman -S --needed --noconfirm openssh rsync > InstallSecureTransfer.log 2>&1"
